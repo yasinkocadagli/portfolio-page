@@ -1,7 +1,11 @@
+import Navbar from './components/Navbar/Navbar'
+import React from 'react'
 
-
-function App() {
-  
+export default function App() {
+  return (
+    <>
+      <Navbar/>
+    </>
+  )
 }
 
-export default App;
